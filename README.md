@@ -14,8 +14,6 @@ Moreover, MVVM is vastly used in today’s Android development, and combines ver
 
 ![alt text](https://github.com/benjaglobant/HarryPotterApp/blob/master/mvvm.png "MVVM")
 
-If you want to read and understad at all MVVM, just visit: https://docs.google.com/presentation/d/1JkepsjABKhOmQr7bc62mL8vd-3UqbyklceHfJn4K0rU/edit?ts=5daa0000#slide=id.g61baf37ef4_1_33
-
 ### Clean Architecture:
 Clean architecture attempts to **provide a methodology to use in coding in order to make it easier to develop quality code that performs better is easier to change, update and has fewer dependencies**.
 An important goal of clean architecture is to provide developers with a way to **organize code in such a way that it encapsulates the business logic but keeps it separate from the delivery mechanism**. 
@@ -26,8 +24,6 @@ Layers of Clean Architecture used in this project:
  - Presentation: Would **include both domain and data layer** and is android specific which **executes the UI logic**.
  
  ![alt text](https://github.com/benjaglobant/HarryPotterApp/blob/master/cleanarchitecture.png "CleanArchitecture")
-
-To learn about different ways of implement Clean Architecture, visit: https://docs.google.com/presentation/d/1aBtccGraTyggnIP6Nn7m8uGfBgreKWIk-2JuLafKAds/edit#slide=id.p4
 
 ### Dependency Injection - Koin
  - Dependency injection is a programming **technique that makes a class independent of its dependencies by decoupling the usage of an object from its creation**. It’s derived from the fifth principle of the famous object oriented programming principles S.O.L.I.D (**Dependency Inversion**: class should concentrate on fulfilling its own responsibilities and should not be concerned with creating objects to fulfill those responsibilities).
